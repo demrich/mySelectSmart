@@ -1,0 +1,35 @@
+docs_list_title: Products
+docs:
+
+- title: EcoSurvivor 3.5mm Audio Cable
+  price: $14.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-35mm-audio-cable
+  image_path: ./img/products/36235.png
+  addcart_link: https://byjasco.com/products/1307/add-to-cart
+  category: audio
+  rating: 1
+  
+- title: EcoSurvivor Battery Pack 9000mAh
+  price: $49.99
+  jasco_link: https://byjasco.com/products/eco-survivor-battery-pack-9000mah
+  image_path: ./img/products/36236.png
+  addcart_link: https://byjasco.com/products/1311/add-to-cart
+  category: charging 
+  rating: 7
+
+- title: EcoSurvivor Bluetooth Speaker
+  price: $79.99
+  jasco_link: https://byjasco.com/products/eco-survivor-bluetooth-speaker
+  image_path: ./img/products/36523.png
+  addcart_link: https://byjasco.com/products/1310/add-to-cart
+  category: audio
+  rating: 10
+
+- title: EcoSurvivor 6D USB Charging Lantern
+  price: $44.99
+  jasco_link: https://byjasco.com/products/ecosurvivor-6d-usb-lantern-rubberized-gray
+  image_path: ./img/products/37781.png
+  addcart_link: https://byjasco.com/products/1322/add-to-cart
+  category: lighting
+  rating: 9
+  

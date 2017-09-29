@@ -1,0 +1,51 @@
+---
+layout: default
+title: Shop All
+---
+
+<!-- Product Hero Image Section -->
+<div id="shop-head">
+  <div class="container-fluid">
+    <div id="shop-carousel" >
+    <div class="no-padding col-md-12" >
+<section class="regular slider single-item">
+    <div>
+        <a href="{{ product.jasco_link}}" target="_blank">
+          <img src="./img/myselectsmartGE_microsite-header.jpg" class="img-responsive visible-lg visible-xl">
+         <img src="{{ product.header_mobile }}" class="img-responsive visible-xs visible-sm visible-md">
+        </a>
+      </div>  
+  </section>
+    </div>   
+    </div> 
+</div>
+</div>
+<!-- Shop Products Section -->
+<div id="shopProducts">
+<div class="container">
+<div id="productHeader">
+  <h1>{{ page.title }} </h1>
+</div>
+{% assign rows = site.data.products.docs.size | divided_by: 2 %}
+{% assign sorted = site.data.products.docs | sort: 'rating' | reverse %}
+{% for i in (1..rows) %}
+{% assign offset = forloop.index0 | times: 4 %}
+<div class="row">
+  {% for product in sorted limit:4 offset:offset %}
+  <div class="prod col-sm-6 col-md-6 col-lg-3 text-center vbottom">
+     <a href=" {{ product.jasco_link }}?subtheme=ecosurvivor&__hstc=181257784.fefcc063461cfaebc8e8a6d9389ba8fe.1506010749741.1506010749741.1506010749741.1&__hssc=181257784.7.1506010749741&__hsfp=1530820022" target="_blank">
+      <img src="{{ product.image_path }}" class="img-responsive shop-img" style="text-align:center;"></a>
+    <div class="shop-caption">
+       <span class="prod-title"> {{ product.title }}</span><br>
+       <span class="price">{{ product.price }}</span><br>
+       <button class="button-cart" onClick="addCart('{{ product.addcart_link }}', this)">Add to Cart</button>
+   </div>
+   </div>
+  {% endfor %}
+</div>
+{% endfor %}
+</div>
+<iframe id="result"style="width:0; height:0; border:0; border:none"></iframe>
+</div>
+
+

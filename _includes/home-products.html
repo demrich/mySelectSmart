@@ -1,0 +1,36 @@
+<!-- Product Section -->
+<div id="product-home">
+    <div class="container">
+     <div class="row">
+       <div class="col-md-12">
+         <h1>Shop MySelectSmart</h1>
+         <hr id="shop-hr">
+         <div class="carousel-home text-center">
+              <section class="regular slider responsive">
+  
+           {% assign sorted = site.data.products.docs | sort: 'rating' | reverse %}
+           {% for product in site.data.products.docs %}
+  
+         <div>
+         <a href="{{ product.jasco_link }}" target="_blank">
+         <img src="{{ product.image_path }}" alt="EcoSurvivor LED Lantern (Orange Camo)" style="max-width:100%;" />
+         </a>
+            <div class="shop-caption">
+              <a href="{{ product.jasco_link }}" target="_blank">
+              <span class="prod-title">{{ product.title }}</span><br>
+              </a>
+              <span class="price">{{ product.price }}</span><br>
+              <button class="button-cart" onClick="addCart('{{ product.addcart_link }}?subtheme=ecosurvivor', this)">Add to Cart</button>
+             </div>
+         </div>
+             {% endfor %}
+             
+     </section> <span id="view-cart" style="display:none;">Your Order has been added! <a href="https://byjasco.com/cart" target="_blank"> View Your Cart</a></span>
+     
+         </div>
+   
+       </div>    
+   </div>
+   </div>
+   </div>
+   <!-- End products -->

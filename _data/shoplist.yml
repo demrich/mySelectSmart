@@ -1,0 +1,11 @@
+docs_list_title: Shop
+docs:
+
+- title: Audio
+  url: shop-audio.html
+
+- title: Lighting
+  url: shop-lighting.html
+
+- title: Charging
+  url: shop-charging.html

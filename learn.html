@@ -1,0 +1,26 @@
+---
+layout: default
+title: Learn
+---
+<div class="header container">
+<img src="./img/about-header.jpg" class="img-responsive" alt="Myselect Smart Controls"> 
+</div>
+<div class="anim container">
+
+    {% for learn in site.learn %}    
+  <div class="row">
+    <div class="col-md-12">
+      <img src="{{ learn.icon-img }}" class="img-responsive center-block"><br>
+    </div>
+  </div>
+
+  <div class="row">
+
+    <div class="col-md-10 col-md-offset-1 text-center">
+        <h1>{{ learn.title }}</h1>        
+      <p>{{ learn.content }}</p>
+    </div>
+  </div>
+    {% endfor %}
+</div>
+ 
