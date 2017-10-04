@@ -1,35 +1,51 @@
 docs_list_title: Products
 docs:
 
-- title: EcoSurvivor 3.5mm Audio Cable
-  price: $14.99
-  jasco_link: https://byjasco.com/products/ecosurvivor-35mm-audio-cable
+- title: Wireless Motion-Sensing Lighting Control
+  price: $29.99
+  jasco_link: https://byjasco.com/products/myselectsmart-wireless-motion-sensing-lighting-control
   image_path: ./img/products/36235.png
-  addcart_link: https://byjasco.com/products/1307/add-to-cart
-  category: audio
-  rating: 1
+  addcart_link: https://byjasco.com/products/1312/add-to-cart
+  category: kit
+  rating: 10
   
-- title: EcoSurvivor Battery Pack 9000mAh
-  price: $49.99
-  jasco_link: https://byjasco.com/products/eco-survivor-battery-pack-9000mah
+- title: Wireless Door Sensor Lighting Control
+  price: $24.99
+  jasco_link: https://byjasco.com/products/myselectsmart-wireless-door-sensor-lighting-control
   image_path: ./img/products/36236.png
-  addcart_link: https://byjasco.com/products/1311/add-to-cart
-  category: charging 
-  rating: 7
-
-- title: EcoSurvivor Bluetooth Speaker
-  price: $79.99
-  jasco_link: https://byjasco.com/products/eco-survivor-bluetooth-speaker
-  image_path: ./img/products/36523.png
-  addcart_link: https://byjasco.com/products/1310/add-to-cart
-  category: audio
+  addcart_link: https://byjasco.com/products/1313/add-to-cart
+  category: kit 
   rating: 10
 
-- title: EcoSurvivor 6D USB Charging Lantern
-  price: $44.99
-  jasco_link: https://byjasco.com/products/ecosurvivor-6d-usb-lantern-rubberized-gray
+- title: Wireless Remote w/ Countdown Timer Lighting Control
+  price: $24.99
+  jasco_link: https://byjasco.com/products/myselectsmart-wireless-remote-countdown-timer-lighting-control
+  image_path: ./img/products/36240.png
+  addcart_link: https://byjasco.com/products/1315/add-to-cart
+  category: kit
+  rating: 10
+
+- title: Wireless Remote with Dimming Lighting Control
+  price: $29.99
+  jasco_link: https://byjasco.com/products/myselectsmart-wireless-remote-dimming-lighting-control
   image_path: ./img/products/37781.png
-  addcart_link: https://byjasco.com/products/1322/add-to-cart
-  category: lighting
-  rating: 9
+  addcart_link: https://byjasco.com/products/1317/add-to-cart
+  category: kit
+  rating: 10
+
+- title: Wireless Dusk-to-Dawn Sensor Lighting Control
+  price: $24.99
+  jasco_link: https://byjasco.com/products/myselectsmart-wireless-dusk-dawn-sensor-lighting-control
+  image_path: ./img/products/36237.png
+  addcart_link: https://byjasco.com/products/1314/add-to-cart
+  category: kit
+  rating: 10
+  
+- title: Wireless Remote Lighting Control
+  price: $19.99
+  jasco_link: https://byjasco.com/products/myselectsmart-wireless-remote-lighting-control
+  image_path: ./img/products/36523.png
+  addcart_link: https://byjasco.com/products/1316/add-to-cart
+  category: kit
+  rating: 10
   

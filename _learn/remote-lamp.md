@@ -3,6 +3,7 @@ title: Remote Controls
 icon-img: ./img/remote-lamp.png
 hero-img: ./img/remote-hero-large.jpg
 hero-img-mobile: ./img/remote-hero-small.jpg
+level: 1
 
 ---
 

@@ -3,6 +3,7 @@ title: Motion Activation
 icon-img: ./img/motion-lamp.png
 hero-img: ./img/motion-hero-large.jpg
 hero-img-mobile: ./img/motion-hero-small.jpg
+level: 3
 
 ---
 

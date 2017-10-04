@@ -5,8 +5,8 @@ title: Learn
 <div class="header container">
 <img src="./img/about-header.jpg" class="img-responsive" alt="Myselect Smart Controls"> 
 </div>
-
-{% for learn in site.learn %}    
+{% assign sorted = site.learn | sort: 'level' %}
+{% for learn in sorted %}    
 <div class="anim container">
   <div class="row">
     <div class="col-md-12">
@@ -19,7 +19,7 @@ title: Learn
         <h1>{{ learn.title }}</h1>        
       <p>{{ learn.content }}</p>
     </div>
-  </div> 
+  </div>   
 </div>
   <div class="row">
 
